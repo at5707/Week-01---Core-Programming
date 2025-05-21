@@ -1,5 +1,5 @@
 import java.util.*;
-public class sumarr{
+public class SumArray{
 	public static void main(String[] args){
 		double[] numbers=new double[10];
 		double total=0.0;

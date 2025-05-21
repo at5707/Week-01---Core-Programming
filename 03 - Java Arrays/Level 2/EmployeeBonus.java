@@ -1,5 +1,5 @@
 import java.util.*;
-public class Employee {
+public class EmployeeBonus {
     public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		final int NUM_EMPLOYEES=10;

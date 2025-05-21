@@ -1,5 +1,5 @@
 import java.util.*;
-public class mean{
+public class MeanHeight{
 	public static void main(String[] args){
 		double[] height=new double[11];
 		double sum=0.0;

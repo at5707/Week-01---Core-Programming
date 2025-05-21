@@ -1,5 +1,5 @@
 import java.util.*;
-public class freq {
+public class DigitFrequency {
     public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		long n=input.nextLong();

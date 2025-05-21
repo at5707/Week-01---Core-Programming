@@ -1,5 +1,5 @@
 import java.util.*;
-public class day{
+public class DayOfWeek{
 	public static void main(String[] args){
 		int m,d,y;
 		Scanner input = new Scanner(System.in);

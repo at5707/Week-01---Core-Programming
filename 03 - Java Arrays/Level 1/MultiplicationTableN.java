@@ -1,5 +1,5 @@
 import java.util.*;
-public class multitable{
+public class MultiplicationTableN{
 	public static void main(String[] args){
 		int[] table=new int[10];
 		Scanner input=new Scanner(System.in);

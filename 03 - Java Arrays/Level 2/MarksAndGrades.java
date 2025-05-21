@@ -1,5 +1,5 @@
 import java.util.*;
-public class marks {
+public class MarksAndGrades {
     public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n=input.nextInt();

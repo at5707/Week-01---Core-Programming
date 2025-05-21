@@ -1,5 +1,5 @@
 import java.util.*;
-public class op{
+public class OperationSwitch{
 	public static void main(String[] args){
 		double n1,n2;
 		String op;

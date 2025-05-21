@@ -1,5 +1,5 @@
 import java.util.*;
-public class rev{
+public class ReverseNumber{
 	public static void main(String[] args){
 		int n;
 		Scanner input=new Scanner(System.in);

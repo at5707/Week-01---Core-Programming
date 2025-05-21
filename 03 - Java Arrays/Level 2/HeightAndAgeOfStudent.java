@@ -1,5 +1,5 @@
 import java.util.*;
-public class height {
+public class HeightAndAgeOfStudent {
     public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String[] names={"Amar","Akbar","Anthony"};

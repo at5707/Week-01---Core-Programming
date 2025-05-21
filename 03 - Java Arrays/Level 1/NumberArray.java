@@ -1,5 +1,5 @@
 import java.util.*;
-public class numar{
+public class NumberArray{
 	public static void main(String[] args){
 		int[] numbers=new int[5];
 		Scanner input=new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class bmicalc {
+public class BmiCalculator {
     public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n=input.nextInt();

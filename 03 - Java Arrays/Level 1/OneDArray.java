@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class onearray {
+public class OneDArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number of rows and cols: ");
