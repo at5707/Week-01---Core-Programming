@@ -1,5 +1,5 @@
 import java.util.*;
-public class si{
+public class SimpleInterest{
 	public static double calcSimpleInt(double principal,double rate,double time){
 		return(principal*rate*time)/100;
 	}

@@ -1,5 +1,5 @@
 import java.util.*;
-public class trigo{
+public class Trigonometry{
 	public static double[] trigofunc(double angle){
 		double radians=Math.toRadians(angle);
 		double sine=Math.sin(radians);

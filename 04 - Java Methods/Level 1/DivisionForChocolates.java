@@ -1,5 +1,5 @@
 import java.util.*;
-public class div2{
+public class DivisionForChocolates{
 	public static int[] findRemainderAndQuotient(int numberOfChocolates,int numberOfChildren){
 		int chocolatesPerChild=numberOfChocolates/numberOfChildren;
 		int remainingChocolates=numberOfChocolates%numberOfChildren;

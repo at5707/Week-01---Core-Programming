@@ -1,5 +1,5 @@
 import java.util.*;
-public class handshake2{
+public class MaxHandshakesForStudents{
 		public static int maxHand(int n){
 			return (n*(n-1))/2;
 		}

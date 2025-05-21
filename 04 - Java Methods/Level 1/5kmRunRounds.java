@@ -1,5 +1,5 @@
 import java.util.*;
-public class tri{
+public class 5kmRunRounds{
 	public static int calcround(double a,double b,double c){
 		double peri=a+b+c;
 		return (int) Math.ceil(5000/peri);

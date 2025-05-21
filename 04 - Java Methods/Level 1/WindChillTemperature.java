@@ -1,5 +1,5 @@
 import java.util.*;
-public class speed{
+public class WindChillTemperature{
 	public static double windchill(double temperature,double wind){
 		return 35.74+0.6215*temperature+(0.4275*temperature-35.75)*Math.pow(wind,0.16);
 	}

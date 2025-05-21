@@ -1,5 +1,5 @@
 import java.util.*;
-public class div{
+public class DivisionForRemainderAndQuotient{
 	public static int[] findRemainderAndQuotient(int n,int d){
 		int quotient=n/d;
 		int remainder=n%d;

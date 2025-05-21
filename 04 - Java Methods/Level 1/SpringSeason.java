@@ -1,5 +1,5 @@
 import java.util.*;
-public class season{
+public class SpringSeason{
 	public static boolean checkseason(int month,int day){
 		if((month==3&&day>=20)||(month==4)||(month==5)||(month==6&&day<=20)){
 			return true;

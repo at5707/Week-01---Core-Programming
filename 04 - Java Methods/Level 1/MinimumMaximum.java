@@ -1,5 +1,5 @@
 import java.util.*;
-public class minmax{
+public class MinimumMaximum{
 	public static int[] findSmallestandLargest(int a,int b,int c){
 		int smallest=Math.min(a,Math.min(b,c));
 		int largest=Math.max(a,Math.max(b,c));
