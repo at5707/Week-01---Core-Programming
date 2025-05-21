@@ -1,5 +1,5 @@
 import java.util.*;
-public class harshad{
+public class HarshadNumberDigitCheck{
 	public static void main(String[] args){
 		int n=156;
 		System.out.println("Number: " + n);

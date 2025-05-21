@@ -1,5 +1,5 @@
 import java.util.Random;
-public class football{
+public class HeightCheckOfFootballPlayers{
 	public static void main(String[] args){
 		int size=11;
 		int[] heights=generate(size);

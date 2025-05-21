@@ -1,5 +1,5 @@
 import java.util.*;
-public class check{
+public class CheckNumberParameters{
 	public static void main(String[] args){
 		int n=153;
 		System.out.println("Number: " + n);

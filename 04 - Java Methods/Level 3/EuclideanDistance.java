@@ -1,5 +1,5 @@
 import java.util.*;
-public class euclid{
+public class EuclideanDistance{
 	public static void main(String[] args){
 		double x1,y1,x2,y2;
 		Scanner scanner = new Scanner(System.in);

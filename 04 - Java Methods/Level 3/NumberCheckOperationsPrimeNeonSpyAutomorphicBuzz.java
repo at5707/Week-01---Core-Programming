@@ -1,5 +1,5 @@
 import java.util.*;
-public class operatediff{
+public class NumberCheckOperationsPrimeNeonSpyAutomorphicBuzz{
 	public static void main(String[] args){
 	int n=7;
 	System.out.println("Number: " + n);

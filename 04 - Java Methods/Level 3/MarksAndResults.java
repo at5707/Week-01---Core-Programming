@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class score{
+public class MarksAndResults{
 	public static int[][] generate(int num){
 		Random rand=new Random();
 		int[][] score=new int[num][3];

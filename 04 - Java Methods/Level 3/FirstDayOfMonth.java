@@ -1,5 +1,5 @@
 import java.util.*;
-public class month{
+public class FirstDayOfMonth{
 	public static void main(String[] args){
 		int month,year;
 		Scanner scanner = new Scanner(System.in);

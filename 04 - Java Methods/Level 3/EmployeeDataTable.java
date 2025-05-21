@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class bonus {
+public class EmployeeDataTable {
     public static void main(String[] args) {
         final int EMPLOYEE_COUNT = 10;
 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class reversenumber{
+public class ReverseNumberCheckForPalindromeAndDuck{
 	public static void main(String[] args){
 		int n=1221;
 		System.out.println("Number: " + n);

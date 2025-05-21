@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class matrix {
+public class MatrixOperations {
 
     public static double[][] generateMatrix(int rows, int cols) {
         Random rand = new Random();

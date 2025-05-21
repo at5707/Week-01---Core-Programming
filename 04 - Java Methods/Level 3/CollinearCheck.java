@@ -1,5 +1,5 @@
 import java.util.*;
-public class collinear{
+public class CollinearCheck{
 	public static void main(String[] args){
 		double x1,y1,x2,y2,x3,y3;
 		Scanner scanner = new Scanner(System.in);

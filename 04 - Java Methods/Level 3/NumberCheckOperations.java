@@ -1,5 +1,5 @@
 import java.util.*;
-public class numc{
+public class NumberCheckOperations{
 	public static void main(String[] args){
 	int n=28;
 	System.out.println("Number: " + n);
