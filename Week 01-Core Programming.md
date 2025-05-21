@@ -1,82 +1,155 @@
-Week 1: Core Programming
-Welcome to the repository for Week 1 of our Java learning journey. This week focused on building a strong foundation in the fundamental concepts of Java programming.
+Week 1: Core Programming in Java
+Welcome to Week 1 of our Java learning journey. This week is dedicated to building a strong foundation in the core concepts of Java programming. Whether you're just getting started or refreshing your basics, this module provides the essential building blocks for your success.
 
-Table of Contents
-● Overview
-● Topics Covered
-○ Day 1: Java Programming Elements
-○ Day 2: Java Control FLows
-○ Day 3: Java Arrays
-○ Day 4: Java Methods
-○ Day 5: Java String
-● Prerequisites
-● How to Use This Repository
-● Next Steps
-
+📚 Table of Contents
 Overview
-The first week was dedicated to understanding the core syntax and essential building blocks of the Java programming language. We covered how to write simple Java programs, handle different types of data, control the flow of execution, and work with fundamental data structures like arrays and strings, as well as modularizing code with functions (methods).
 
 Topics Covered
 
 Day 1: Java Programming Elements
-1. Java Comments
-2. Java Basic Data Types
-3. Java Variables
-4. Arithmetic Operators
-5. Operator Precedence
-6. Type Conversion
-7. Taking User Input in Programs
 
 Day 2: Java Control Flows
-1. Java Control Flows
-2. Java boolean Data Type
-3. Boolean Expressions
-4. Logical Operators
-5. if Conditional Statement along with else if and final else statement
-6. Java loops - for and while
-7. Java break and continue statement
-8. Java switch Statement
 
 Day 3: Java Arrays
-1. Java Arrays
-2. Create an Array
-3. Access an Array
-4. Accessing using for loop
-5. Modifying an Array
-6. Using length property of array
-7. Java Multi-demensional Array
-8. Java 2 Dimensional Array (Matrix)
-9. Accessing, finding size, etc of Multi-Dimensional Array
-10. Using Java System error() message and exit() method
 
 Day 4: Java Methods
-1. User Defined Methods
-2. Using Methods Multiple Times
-3. Making Methods more Dynamic
-4. Recursive Methods
-5. Java Static Methods
-6. Java Standard Library Methods
-7. java.lang.Math class
 
-Day 5: Java String
-1. Java Strings
-2. Create Strings
-3. Use of "\" Escape Sequence
-4. Take String Input
-5. String Arrays
-6. String as Method Parameters
-7. String Class Built-In Methods
-8. ASCII Character Codes
-9. Java Exceptions
-10. Java Exception Hierarchy
-11. Java Exception Types
-12. java.lang.RuntimeException or Unchecked Exceptions
-13. Checked Exceptions
+Day 5: Java Strings & Exceptions
 
 Prerequisites
-● A computer with a supported operating system (Windows, macOS, Linux).
-● Java Development Kit (JDK) installed.
-● A code editor or Integrated Development Environment (IDE) like VS Code, IntelliJ IDEA, or Eclipse.
 
 How to Use This Repository
-This repository is structured to reflect the topics covered each day. You can find code examples, notes, or exercises within the respective daily folders (if available). Feel free to explore the code, run it, and modify it to deepen your understanding.
+
+Next Steps
+
+📌 Overview
+This week focuses on understanding the core syntax and fundamental building blocks of the Java programming language. Topics include:
+
+Writing simple Java programs
+
+Working with variables and data types
+
+Controlling program flow with conditionals and loops
+
+Manipulating arrays and strings
+
+Modularizing code using methods
+
+Handling basic exceptions
+
+🗂️ Topics Covered
+Day 1: Java Programming Elements
+Java Comments
+
+Basic Data Types
+
+Variables and Initialization
+
+Arithmetic Operators
+
+Operator Precedence
+
+Type Conversion
+
+Taking User Input
+
+Day 2: Java Control Flows
+Control Flow Overview
+
+Boolean Data Type and Expressions
+
+Logical Operators
+
+Conditional Statements (if, else if, else)
+
+Loops: for and while
+
+break and continue Statements
+
+switch Statement
+
+Day 3: Java Arrays
+Declaring and Initializing Arrays
+
+Accessing Array Elements
+
+Iterating with Loops
+
+Modifying Arrays
+
+length Property
+
+Multidimensional Arrays (2D Arrays)
+
+Array Size and Access Patterns
+
+Using System.err and System.exit()
+
+Day 4: Java Methods
+User-Defined Methods
+
+Reusing Methods
+
+Dynamic Method Parameters
+
+Recursion
+
+Static Methods
+
+Standard Library Methods
+
+java.lang.Math Utilities
+
+Day 5: Java Strings & Exceptions
+String Creation and Initialization
+
+Escape Sequences
+
+String Input
+
+String Arrays
+
+Strings as Method Parameters
+
+Common String Methods
+
+ASCII Character Codes
+
+Java Exception Handling
+
+Exception Hierarchy
+
+Checked vs Unchecked Exceptions
+
+java.lang.RuntimeException
+
+🛠️ Prerequisites
+Before you begin, ensure you have the following set up:
+
+A computer with Windows, macOS, or Linux
+
+Java Development Kit (JDK) installed
+
+A code editor or IDE such as VS Code, IntelliJ IDEA, or Eclipse
+
+🚀 How to Use This Repository
+This repository is organized into folders for each day. Inside each folder, you'll find:
+
+Sample code snippets
+
+Notes or explanations
+
+Practice exercises (if available)
+
+Feel free to run and modify the code to solidify your understanding.
+
+⏭️ Next Steps
+After mastering Week 1, you're ready to:
+
+Dive deeper into Object-Oriented Programming
+
+Learn about classes, objects, inheritance, and interfaces
+
+Start building small projects to apply what you’ve learned
+
+Feel free to fork, star, and share this repository if you find it helpful. Happy coding! 👨‍💻👩‍💻
