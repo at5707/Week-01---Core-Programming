@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Distance{
+public class DistanceFromFeetToYardsAndMiles{
 	public static void main(String[] args){
 		double feet;
 		Scanner input=new Scanner(System.in);

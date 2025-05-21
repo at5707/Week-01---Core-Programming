@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Height{
+public class Heightincmandfeet{
 	public static void main(String[] args){
 		double height;
 		Scanner input=new Scanner(System.in);

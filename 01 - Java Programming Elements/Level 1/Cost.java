@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Cost{
+public class Discount{
 	public static void main(String[] args){
 		int fee,discountPercent;
 		Scanner input=new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class Volume{
+public class VolumeOfEarth{
 	public static void main(String[] args){
 		double r=6378.0;
 		double Volume=(4.0/3.0)*3.14*(r*r*r);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class divide{
+public class Division{
 	public static void main(String[] args){
 		int number1,number2;
 		Scanner input=new Scanner(System.in);

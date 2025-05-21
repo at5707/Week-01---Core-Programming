@@ -1,4 +1,4 @@
-public class Age{
+public class AgeInYear{
 	public static void main(String[] args){
 		int birthyear=2000;
 		int current=2024;
