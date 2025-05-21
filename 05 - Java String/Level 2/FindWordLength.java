@@ -1,5 +1,5 @@
 import java.util.*;
-public class wordanalysis{
+public class FindWordLength{
 	public static int findLength(String str){
 		int count=0;
 		try{
@@ -44,33 +44,16 @@ public class wordanalysis{
 		}
 		return result;
 	}
-	public static int[] findshortestandlongest(String[][] wordsWithLengths){
-		int shortest=Integer.parseInt(wordsWithLengths[0][1]);
-		int longest=shortest;
-		for(int i=1;i<wordsWithLengths.length;i++){
-			int length=Integer.parseInt(wordsWithLengths[i][1]);
-			if(length<shortest){
-				shortest=length;
-			}
-			if(length>longest){
-				longest=length;
-			}
-		}
-		return new int[]{shortest,longest};
-	}
 	public static void main(String[] args){
-		String text;
-		Scanner scanner = new Scanner(System.in);
-		text=scanner.nextLine();
-		String[] words=customSplit(text);
-		String[][] wordsWithLengths=wordsWithLengths(words);
-		int[] lengths=findshortestandlongest(wordsWithLengths);
-		System.out.println("\nWord\t\tLength");
-		System.out.println("----------------------");
-		for(String[] wordData:wordsWithLengths){
-			System.out.println(wordData[0]+"\t\t"+Integer.parseInt(wordData[1]));
-		}
-		System.out.println("\nShortest word length: "+lengths[0]);
-		System.out.println("Longest word length: "+lengths[1]);
+			String text;
+			Scanner scanner = new Scanner(System.in);
+			text=scanner.nextLine();
+			String[] words=customSplit(text);
+			String[][] wordsWithLengths=wordsWithLengths(words);
+			System.out.println("\nWord\t\tLength");
+			System.out.println("----------------------");
+			for(String[] wordData:wordsWithLengths){
+				System.out.println(wordData[0]+"\t\t"+Integer.parseInt(wordData[1]));
+			}
 	}
 }

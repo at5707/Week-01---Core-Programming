@@ -1,5 +1,6 @@
-import java.util.*;
-public class wordlength{
+import java.util.Scanner;
+import java.util.Arrays;
+public class SplitTextCheck{
 	public static int findLength(String str){
 		int count=0;
 		try{
@@ -35,25 +36,26 @@ public class wordlength{
 		words[wordCount-1]=str.substring(start,len);
 		return words;
 	}
-	public static String[][] wordsWithLengths(String[] words){
-		int numWords=words.length;
-		String[][] result=new String[numWords][2];
-		for(int i=0;i<numWords;i++){
-			result[i][0]=words[i];
-			result[i][1]=String.valueOf(findLength(words[i]));
+	public static boolean compare(String[] arr1,String[] arr2){
+		if(arr1.length!=arr2.length){
+			return false;
 		}
-		return result;
+		for(int i=0;i<arr1.length;i++){
+			if(!arr1[i].equals(arr2[i])){
+				return false;
+			}
+		}
+		return true;
 	}
 	public static void main(String[] args){
-			String text;
-			Scanner scanner = new Scanner(System.in);
-			text=scanner.nextLine();
-			String[] words=customSplit(text);
-			String[][] wordsWithLengths=wordsWithLengths(words);
-			System.out.println("\nWord\t\tLength");
-			System.out.println("----------------------");
-			for(String[] wordData:wordsWithLengths){
-				System.out.println(wordData[0]+"\t\t"+Integer.parseInt(wordData[1]));
-			}
+		String text;
+		Scanner scanner=new Scanner(System.in);
+		text=scanner.next();
+		String[] customWords=customSplit(text);
+		String[] builtInWords=text.split(" ");
+		boolean areEqual=compare(customWords,builtInWords);
+		System.out.println("\nWords using custom split: "+Arrays.toString(customWords));
+		System.out.println("Words using built-in split(): "+Arrays.toString(builtInWords));
+		System.out.println("Both equal? "+areEqual);
 	}
 }

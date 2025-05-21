@@ -1,5 +1,5 @@
 import java.util.*;
-public class vowelconsonant{
+public class TotalVowelConsonant{
 	public static String check(char ch){
 		if(ch>='A'&&ch<='Z'){
 			ch=(char)(ch+32);

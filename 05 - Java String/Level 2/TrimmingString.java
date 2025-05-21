@@ -1,5 +1,5 @@
 import java.util.*;
-public class trimstring{
+public class TrimmingString{
 	public static int[] customTrim(String str){
 		int length=findlength(str);
 		int start=0,end=length-1;

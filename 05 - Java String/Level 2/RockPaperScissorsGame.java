@@ -1,5 +1,5 @@
 import java.util.*;
-public class rpsgame{
+public class RockPaperScissorsGame{
 	public static String getComp(){
 		String[] choices={"Rock","Paper","Scissors"};
 		int random=(int)(Math.random()*3);

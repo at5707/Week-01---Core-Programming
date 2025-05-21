@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class voting{
+public class VotingEligibility{
 	public static int[] generate(int n){
 		Random random=new Random();
 		int[] ages=new int[n];

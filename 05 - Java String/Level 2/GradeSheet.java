@@ -1,5 +1,5 @@
 import java.util.Random;
-public class grade{
+public class GradeSheet{
 	public static int[][] generate(int num){
 		Random rand=new Random();
 		int[][] scores=new int[num][3];

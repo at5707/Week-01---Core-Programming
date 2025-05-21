@@ -1,5 +1,5 @@
 import java.util.*;
-public class lengthfind{
+public class CheckLengthOfWordEqualOrNot{
 	public static int findlength(String str){
 		int count=0;
 		try{
