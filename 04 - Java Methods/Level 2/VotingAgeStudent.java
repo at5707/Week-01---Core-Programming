@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class vote {
+public class VotingAgeStudent {
     public static boolean canStudentVote(int age) {
         if (age < 0) {
             return false; // Invalid age

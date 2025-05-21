@@ -1,5 +1,5 @@
 import java.util.*;
-public class leapyear{
+public class LeapYearCheck{
 	public static boolean isleapyear(int year){
 		if(year<1582){
 			System.out.println("Works for years>=1582");

@@ -1,5 +1,5 @@
 import java.util.*;
-public class quadratic{
+public class QuadraticEquation{
 	public static void main(String[] args){
 		double a,b,c;
 		Scanner scanner = new Scanner(System.in);

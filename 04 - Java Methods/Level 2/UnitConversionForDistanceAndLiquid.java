@@ -1,5 +1,5 @@
 import java.util.*;
-public class unitcon{
+public class UnitConversionForDistanceAndLiquid{
 	private static final double KM_TO_MILES = 0.621371;
     private static final double MILES_TO_KM = 1.60934;
     private static final double METERS_TO_FEET = 3.28084;

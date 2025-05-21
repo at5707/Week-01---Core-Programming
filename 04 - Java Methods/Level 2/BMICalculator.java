@@ -1,5 +1,5 @@
 import java.util.*;
-public class bmicalculator{
+public class BMICalculator{
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 		double[][] data = new double[10][3];

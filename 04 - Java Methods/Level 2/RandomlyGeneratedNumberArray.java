@@ -1,5 +1,5 @@
 import java.util.Random;
-public class rand{
+public class RandomlyGeneratedNumberArray{
 	public static void main(String[] args){
 		int size=5;
 		int[] numbers=generate(size);

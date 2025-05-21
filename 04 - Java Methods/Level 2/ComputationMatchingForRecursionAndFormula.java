@@ -1,5 +1,5 @@
 import java.util.*;
-public class natural2{
+public class ComputationMatchingForRecursionAndFormula{
 	public static int sum(int n){
 		if(n==1) return 1;
 		return n+sum(n-1);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Friend2 {
+public class YoungestAndTallestFriend {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] friends = {"Amar", "Akbar", "Anthony"};
