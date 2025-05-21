@@ -1,5 +1,5 @@
 import java.util.*;
-public class freqnest{
+public class CharacterFrequency{
 	public static String[] findcharfreq(String text){
 		char[] chars=text.toCharArray();
 		int[] freq=new int[chars.length];

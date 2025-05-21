@@ -1,5 +1,5 @@
 import java.util.*;
-public class nonrepeat{
+public class NonRepeatingWords{
 	public static char findnonrepeat(String text){
 		int[] frequency=new int[256];
 		for(int i=0;i<text.length();i++){

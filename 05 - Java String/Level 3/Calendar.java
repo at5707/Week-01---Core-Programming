@@ -1,5 +1,5 @@
 import java.util.*;
-public class calendar{
+public class Calendar{
 	public static final String[] months={
 		"January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"

@@ -1,5 +1,5 @@
 import java.util.*;
-public class bmic{
+public class BMICheck{
 	public static String[][] computeBMI(double[][] data){
 		String[][] results=new String[data.length][4];
 		for(int i=0;i<data.length;i++){

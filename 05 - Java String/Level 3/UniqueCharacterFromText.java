@@ -1,5 +1,5 @@
 import java.util.*;
-public class uniquechar{
+public class UniqueCharacterFromText{
 	public static int getString(String text){
 		int count=0;
 		try{

@@ -1,5 +1,5 @@
 import java.util.*;
-public class uniquecharfreq{
+public class UniqueCharacterFrequency{
 	public static char[] uniquechar(String text){
 		StringBuilder unique=new StringBuilder();
 		for(int i=0;i<text.length();i++){

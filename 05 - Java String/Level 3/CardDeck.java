@@ -1,5 +1,5 @@
 import java.util.*;
-public class deck{
+public class CardDeck{
 	static final String[] SUITS={"Hearts","Diamonds","Clubs","Spades"};
 	static final String[] RANKS = {
         "2", "3", "4", "5", "6", "7", "8", "9", "10", 

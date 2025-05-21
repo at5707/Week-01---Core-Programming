@@ -1,5 +1,5 @@
 import java.util.*;
-public class palindrome{
+public class PalindromeCheck{
 	public static boolean isPalindromeIterative(String text){
 		int start=0,end=text.length()-1;
 		while(start<end){

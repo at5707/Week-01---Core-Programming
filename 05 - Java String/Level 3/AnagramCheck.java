@@ -1,5 +1,5 @@
 import java.util.*;
-public class anagram{
+public class AnagramCheck{
 	public static boolean areAnagrams(String text1,String text2){
 		text1=text1.replaceAll("\\s+","").toLowerCase();
 		text2=text2.replaceAll("\\s+","").toLowerCase();
