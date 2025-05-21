@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class are{
+public class Area{
 	public static void main(String[] args){
 		float base,height;
 		Scanner input=new Scanner(System.in);
