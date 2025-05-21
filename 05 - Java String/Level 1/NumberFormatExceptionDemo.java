@@ -1,5 +1,5 @@
 import java.util.*;
-public class NumberFormatDemo{
+public class NumberFormatExceptionDemo{
 	public static void generateException(String text){
 		System.out.println("Attempting to parse input...");
 		int number=Integer.parseInt(text);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class strcomp{
+public class StringComparison{
 	public static boolean compare(String str1,String str2){
 		if(str1.length()!=str2.length()){
 			return false;

@@ -1,5 +1,5 @@
 import java.util.*;
-public class comparison{
+public class SubstringEqualOrNot{
 	public static String create(String str,int start,int end){
 		StringBuilder subStr=new StringBuilder();
 		for(int i=start;i<end;i++){

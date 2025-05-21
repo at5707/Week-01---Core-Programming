@@ -1,5 +1,5 @@
 import java.util.*;
-public class ArrayIndexDemo{
+public class ArrayIndexExceptionDemo{
 	public static void generateException(String[] names){
 		System.out.println("Attempting to access an out-of-bounds index...");
 		System.out.println(names[names.length]);

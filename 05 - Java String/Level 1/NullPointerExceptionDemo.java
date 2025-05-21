@@ -1,5 +1,5 @@
 import java.util.*;
-public class NullPointerDemo{
+public class NullPointerExceptionDemo{
 	public static void generateException(){
 		String text=null;
 		System.out.println(text.length());

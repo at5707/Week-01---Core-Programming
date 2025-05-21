@@ -1,15 +1,15 @@
 import java.util.*;
-public class LowerCase{
-	public static String convertToLowerCase(String str){
-		StringBuilder lowerCaseStr=new StringBuilder();
+public class UpperCaseConversion{
+	public static String convertToUpperCase(String str){
+		StringBuilder upperCaseStr=new StringBuilder();
 		for(int i=0;i<str.length();i++){
 			char ch=str.charAt(i);
-			if(ch>='A'&&ch<='Z'){
-				ch=(char)(ch+32);
+			if(ch>='a'&&ch<='z'){
+				ch=(char)(ch-32);
 			}
-			lowerCaseStr.append(ch);
+			upperCaseStr.append(ch);
 		}
-		return lowerCaseStr.toString();
+		return upperCaseStr.toString();
 	}
 	public static boolean compareStrings(String str1, String str2) {
         if (str1.length() != str2.length()) {
@@ -26,11 +26,11 @@ public class LowerCase{
 		String text;
 		Scanner scanner = new Scanner(System.in);
 		text=scanner.nextLine();
-		String manualLowerCase=convertToLowerCase(text);
-		String builtInLowerCase=text.toLowerCase();
-		boolean areEqual=compareStrings(manualLowerCase,builtInLowerCase);
-		System.out.println("\nConvert: "+manualLowerCase);
-		System.out.println("Converted toLowerCase(): "+builtInLowerCase);
+		String manualUpperCase=convertToUpperCase(text);
+		String builtInUpperCase=text.toUpperCase();
+		boolean areEqual=compareStrings(manualUpperCase,builtInUpperCase);
+		System.out.println("\nConvert: "+manualUpperCase);
+		System.out.println("Converted toUpperCase(): "+builtInUpperCase);
 		System.out.println("Are both conversions equal? " + areEqual);
 	}
 }

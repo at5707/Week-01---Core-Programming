@@ -1,5 +1,5 @@
 import java.util.*;
-public class arrayr{
+public class ExtractCharArray{
 	public static char[] extract(String str){
 		char[] charArray=new char[str.length()];
 		for(int i=0;i<str.length();i++){

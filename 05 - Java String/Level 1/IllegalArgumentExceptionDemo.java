@@ -1,5 +1,5 @@
 import java.util.*;
-public class IllegalArgumentDemo{
+public class IllegalArgumentExceptionDemo{
 	public static void generateException(String str){
 		System.out.println("Attempting to use substring...");
 		System.out.println(str.substring(5,2));
