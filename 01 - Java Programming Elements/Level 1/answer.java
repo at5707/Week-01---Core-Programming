@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class answer{
+public class Operation{
 	public static void main(String[] args){
 		float number1,number2;
 		Scanner input=new Scanner(System.in);
