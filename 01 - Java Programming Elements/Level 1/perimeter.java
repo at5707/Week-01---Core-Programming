@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class perimeter{
+public class Perimeter{
 	public static void main(String[] args){
 		int side;
 		Scanner input=new Scanner(System.in);
