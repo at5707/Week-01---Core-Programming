@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Income{
+public class IncomeAndBonus{
 	public static void main(String[] args){
 		int salary,bonus;
 		Scanner input=new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TempConversion{
+public class TempConversionFromFToC{
 	public static void main(String[] args){
 		double f;
 		Scanner input=new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class weight {
+public class WeightFromKgToPound {
     public static void main(String[] args) {
 		float pound;
 		Scanner input = new Scanner(System.in);

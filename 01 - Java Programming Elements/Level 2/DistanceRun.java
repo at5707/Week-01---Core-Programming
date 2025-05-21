@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class run {
+public class DistanceRun {
     public static void main(String[] args) {
 		int side1,side2,side3;
 		Scanner input = new Scanner(System.in);

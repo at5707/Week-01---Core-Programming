@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TravelComp {
+public class DistanceTravelled {
     public static void main(String[] args) {
 		String fromCity,toCity,viaCity;
 		double distanceFromToVia,distanceViaToFinalCity;

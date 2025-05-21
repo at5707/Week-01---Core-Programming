@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TemperatureConversion{
+public class TemperatureConversionFromCToF{
 	public static void main(String[] args){
 		double c;
 		Scanner input=new Scanner(System.in);
