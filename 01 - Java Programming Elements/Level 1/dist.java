@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class dist{
+public class Distance{
 	public static void main(String[] args){
 		double feet;
 		Scanner input=new Scanner(System.in);
