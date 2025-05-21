@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class price{
+public class Price{
 	public static void main(String[] args){
 		int unitPrice,quantity;
 		Scanner input=new Scanner(System.in);
