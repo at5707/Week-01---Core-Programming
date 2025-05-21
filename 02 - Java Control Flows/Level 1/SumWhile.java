@@ -1,5 +1,5 @@
 import java.util.*;
-public class summ{
+public class SumWhile{
 	public static void main(String[] args){
 		double total=0.0;
 		double number;

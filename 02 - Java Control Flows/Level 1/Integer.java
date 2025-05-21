@@ -1,5 +1,5 @@
 import java.util.*;
-public class integer{
+public class Integer{
 	public static void main(String[] args){
 		int n;
 		Scanner input = new Scanner(System.in);

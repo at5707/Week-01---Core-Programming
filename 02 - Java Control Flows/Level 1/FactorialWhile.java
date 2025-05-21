@@ -1,5 +1,5 @@
 import java.util.*;
-public class factorialf{
+public class FactorialWhile{
 	public static void main(String[] args){
 		int n;
 		Scanner input = new Scanner(System.in);
@@ -8,8 +8,10 @@ public class factorialf{
 			System.out.println("Not defined");
 		}else{
 			long factorial=1;
-			for(int i=1;i<=n;i++){
+			int i=n;
+			while(i>0){
 				factorial*=i;
+				i--;
 			}
 			System.out.println("Factorial of "+n+" is: "+factorial);
 		}

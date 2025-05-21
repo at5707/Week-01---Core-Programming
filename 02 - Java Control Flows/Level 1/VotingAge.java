@@ -1,5 +1,5 @@
 import java.util.*;
-public class vote{
+public class VotingAge{
 	public static void main(String[] args){
 		int age;
 		Scanner input = new Scanner(System.in);

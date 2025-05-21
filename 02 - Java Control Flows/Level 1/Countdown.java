@@ -1,5 +1,5 @@
 import java.util.*;
-public class counter{
+public class Countdown{
 	public static void main(String[] args){
 		int count;
 		Scanner input = new Scanner(System.in);

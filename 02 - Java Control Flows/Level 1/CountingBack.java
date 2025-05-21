@@ -1,5 +1,5 @@
 import java.util.*;
-public class counting{
+public class CountingBack{
 	public static void main(String[] args){
 		int count;
 		Scanner input = new Scanner(System.in);
