@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class chocolate {
+public class Chocolate {
     public static void main(String[] args) {
 		int N,M;
 		Scanner input = new Scanner(System.in);
