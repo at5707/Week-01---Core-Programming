@@ -1,5 +1,5 @@
 import java.util.*;
-public class ageheight{
+public class AgeAndHeight{
 	public static void main(String[] args){
 		int ageAmar,ageAkbar,ageAnthony;
 		int	heightAmar,heightAkbar,heightAnthony;

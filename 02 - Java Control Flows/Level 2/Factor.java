@@ -1,5 +1,5 @@
 import java.util.*;
-public class fizzbuzz{
+public class Factor{
 	public static void main(String[] args){
 		int n;
 		Scanner input = new Scanner(System.in);
@@ -7,15 +7,10 @@ public class fizzbuzz{
 		if(n<=0){
 			System.out.println("The number "+n+" is not positive");
 		}else{
+			System.out.println("Factors of "+n+" are: ");
 			for(int i=1;i<=n;i++){
-				if(i%3==0 && i%5==0){
-					System.out.println("FizzBuzz");
-				}else if(i%3==0){
-					System.out.println("Fizz");
-				}else if(i%5==0){
-					System.out.println("Buzz");
-				}else{
-					System.out.println(i);
+				if(n%i==0){
+					System.out.println(i+" ");
 				}
 			}
 		}

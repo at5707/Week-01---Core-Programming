@@ -1,5 +1,5 @@
 import java.util.*;
-public class bonus2{
+public class BonusSalaryYears{
 	public static void main(String[] args){
 		double salary;
 		int years;

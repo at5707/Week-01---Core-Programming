@@ -1,5 +1,5 @@
 import java.util.*;
-public class large{
+public class LargestNumber{
 	public static void main(String[] args){
 		int number1,number2,number3;
 		Scanner input = new Scanner(System.in);

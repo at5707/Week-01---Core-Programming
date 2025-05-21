@@ -1,5 +1,5 @@
 import java.util.*;
-public class factor{
+public class FactorIfWhile{
 	public static void main(String[] args){
 		int n;
 		Scanner input = new Scanner(System.in);
@@ -8,10 +8,12 @@ public class factor{
 			System.out.println("The number "+n+" is not positive");
 		}else{
 			System.out.println("Factors of "+n+" are: ");
-			for(int i=1;i<=n;i++){
+			int i=1;
+			while(i<=n){
 				if(n%i==0){
 					System.out.println(i+" ");
 				}
+				i++;
 			}
 		}
 	}

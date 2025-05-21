@@ -1,5 +1,5 @@
 import java.util.*;
-public class powerwhile{
+public class PowerOfNumberWhile{
 	public static void main(String[] args){
 		int n,p;
 		Scanner input = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class fizzbuzz2{
+public class FizzBuzzWhile{
 	public static void main(String[] args){
 		int n;
 		Scanner input = new Scanner(System.in);
